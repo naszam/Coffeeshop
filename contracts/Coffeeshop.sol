@@ -31,7 +31,7 @@ function addCoffee(uint _coffeeId, bytes32 _description, uint _price) public {
 
 /* Constructor of Coffeeshop contract
  * which sets the owner address
- * and initialise the coffee list, expressing the price in ether (0.020 ether ~ 2.65 pounds, 0.025 ether = 3.10 pounds)
+ * and initialise the coffee list, expressing the price in ether (0.020 ether ~ 2.65 pounds, 0.025 ether ~ 3.10 pounds)
  */
 constructor() public {
 
