@@ -42,7 +42,9 @@ constructor() public {
 }
 
 // Fallback function
-function() external payable {}
+function() external payable {
+	revert();
+}
 
 // Check if coffeId is valid, between 0 and 3
 modifier validId(uint _coffeeId) {
