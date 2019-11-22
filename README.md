@@ -14,7 +14,7 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
   ```sh
   $ npm install -g truffle ganache-cli
   ```
-## Running the project with local test network(ganache-cli)
+## Running the project with local test network (ganache-cli)
     
    - Start ganache-cli with the following command:
      ```sh 
