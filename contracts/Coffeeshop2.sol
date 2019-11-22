@@ -65,6 +65,7 @@ modifier checkValue(uint _coffeeId) {
     _;
     uint price = coffees[_coffeeId].price;
     uint amountToRefund = msg.value - price;
+    require(amountToRefund > 0);
     (bool success, ) = msg.sender.call.value(amountToRefund)("");
     require(success);
 }
