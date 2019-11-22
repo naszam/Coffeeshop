@@ -46,7 +46,7 @@ function() external payable {}
 
 // Check if coffeId is valid, between 0 and 3
 modifier validId(uint _coffeeId) {
-	require(_coffeeId >= 0 && _coffeeId <=3);
+	require(_coffeeId >= 0 && _coffeeId <3);
 	_;
 }
 
