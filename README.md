@@ -11,9 +11,9 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
 
   - Global dependencies
     - Truffle & Ganache:
-  ```sh
-  $ npm install -g truffle ganache-cli
-  ```
+    ```sh
+    $ npm install -g truffle ganache-cli
+    ```
 ## Running the project with local test network (ganache-cli)
     
    - Start ganache-cli with the following command:
