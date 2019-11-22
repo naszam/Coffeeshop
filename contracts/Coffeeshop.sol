@@ -64,8 +64,8 @@ modifier paidEnough(uint _price) {
  */
 modifier checkValue(uint _coffeeId) {
     _;
-    uint _price = coffees[_coffeeId].price;
-    uint amountToRefund = msg.value - _price;
+    uint price = coffees[_coffeeId].price;
+    uint amountToRefund = msg.value - price;
     (bool success, ) = coffees[_coffeeId].buyer.call.value(amountToRefund)("");
     require(success);
 }
