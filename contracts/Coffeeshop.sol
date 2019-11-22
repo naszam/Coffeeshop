@@ -72,7 +72,7 @@ modifier checkValue(uint _coffeeId) {
 function buy(uint _coffeeId, uint _price) public payable validId(_coffeeId) paidEnough(_price) checkValue(_coffeeId) returns(uint) {	
 	coffees[_coffeeId].buyer=msg.sender;
 	(bool success, ) = bob.call.value(coffees[_coffeeId].price)("");
-    require(success);
+	require(success);
     
 	return _coffeeId;
 }
