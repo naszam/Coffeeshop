@@ -47,14 +47,14 @@ function() external payable {
 
 // Check if coffeId is valid, between 0 and 2
 modifier validId(uint _coffeeId) {
-	require(_coffeeId >= 0 && _coffeeId <3);
+	require(_coffeeId >= 0 && _coffeeId <3, 'Coffee ID out of range!');
 	_;
 }
 
 // Check if the value paid is enough
 modifier paidEnough(uint _coffeeId) {
     uint price = coffees[_coffeeId].price;
-    require(msg.value >= price);
+    require(msg.value >= price, 'Insufficient amount of funds!');
     _;
 }
 
