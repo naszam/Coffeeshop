@@ -72,7 +72,7 @@ modifier checkValue(uint _coffeeId) {
 
 // Transfer the correct amount to seller (Bob) after checking if the coffeeId is valid, the buyer (Alice) has paid enough, and after send the change to buyer
 function buy(uint _coffeeId) public payable validId(_coffeeId) paidEnough(_coffeeId) checkValue(_coffeeId) returns(uint) {	
-	(bool success, ) = bob.call.value(coffees[_coffeeId].price)("");
+	(bool success, ) = bob.call.value(msg.value)("");
 	require(success);
     
 	return _coffeeId;
