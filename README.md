@@ -30,6 +30,9 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
      ```
      
 ## Deploying on Rinkeby's Testnet
+  - Get an Ethereum Account on Metamask. 
+  - On the landing page, click “Get Chrome Extension.”
+  - Create a .secret file cointaining the menomic
     
   - Install the Truffle HD wallet provider with the following command:
     ```sh
