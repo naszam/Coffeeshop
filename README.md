@@ -38,5 +38,5 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
     - Deploy the smart contract using Truffle & Infura with the following command:
     ```sh
     $ truffle migrate --network rinkeby
-    ````
+    ```
       
