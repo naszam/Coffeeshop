@@ -28,5 +28,15 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
      ```sh
      $ truffle migrate
      ```
-      
+     
+## Deploying on Rinkeby's Testnet
+    
+    - Install the Truffle HD wallet provider with the following command:
+    ```sh
+    $ npm install truffle-hdwallet-provider
+    ```
+    - Deploy the smart contract using Truffle & Infura with the following command:
+    ```sh
+    $ truffle migrate --network rinkeby
+    ````
       
