@@ -20,11 +20,8 @@ Coffee[3] public coffees;
 
 // function to add coffee 
 function addCoffee(uint _coffeeId, bytes32 _description, uint _price) internal {
-    Coffee memory newCoffee;
-    
-    newCoffee.description =_description;
-    newCoffee.price = _price;
-    coffees[_coffeeId] = newCoffee;
+    coffees[_coffeeId].description =_description;
+    coffees[_coffeeId].price = _price;
 }
 
 
