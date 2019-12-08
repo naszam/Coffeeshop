@@ -42,4 +42,5 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
     ```sh
     $ truffle migrate --network rinkeby
     ```
- [I've deployed the smart contract on Rinkeby's Testnet](https://www.rinkeby.io/0x1624Ed88C02a6bD85752528acbAEDD812B5f9b19)
+ ## I've deployed the smart contract on [Rinkeby's Testnet](https://www.rinkeby.io/#explorer):
+ - Contract Address: 0x1624Ed88C02a6bD85752528acbAEDD812B5f9b19
