@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 /// @title A basic smart contract
 /// @author Nazzareno Massari
 /// @notice You can use this contract to test basics of a coffeeshop
-/// @dev All function are tested without side effects
+/// @dev All function calls are tested without side effects
 
 contract Coffeeshop {
 
