@@ -60,7 +60,7 @@ modifier paidEnough(uint _coffeeId) {
 }
 
 /** Tranfer the change to buyer (Alice) using address.call.value()() instead of address.transfer() as 
-  * there are implications in the the upcoming Istanbul Ethereum upgrade scheduled for the first week of December
+  * there are implications in the the Istanbul hard fork (EIP-1884). 
   */
 modifier checkValue(uint _coffeeId) {
     _;
