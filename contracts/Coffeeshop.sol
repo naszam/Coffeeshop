@@ -68,13 +68,13 @@ modifier checkValue(uint _coffeeId) {
     uint amountToRefund = msg.value - price;
     require(amountToRefund > 0);
     (bool success, ) = msg.sender.call.value(amountToRefund)("");
-    require(success);
+    require(success, "Transfer failed.");
 }
 
 /// Transfer the correct amount to seller (Bob) after checking if the coffeeId is valid, the buyer (Alice) has paid enough, and after send the change to buyer
 function buy(uint _coffeeId) public payable validId(_coffeeId) paidEnough(_coffeeId) checkValue(_coffeeId) {	
 	(bool success, ) = bob.call.value(coffees[_coffeeId].price)("");
-	require(success);
+	require(success, "Transfer failed.");
 	
 }
 
