@@ -5,7 +5,7 @@ Coffeeshop Smart Contract
 Project Setup
 ============
 
-Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) file in the contracts directory is the smart contract.
+Clone this GitHub repository.
 
 # Steps to compile and deploy Coffeeshop.sol
 
