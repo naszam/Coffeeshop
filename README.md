@@ -14,6 +14,10 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
     ```sh
     $ npm install -g truffle ganache-cli
     ```
+    - Truffle HD Wallet Provider:
+    ```sh
+    $ npm install -g @truffle/hdwallet-provider
+    ```
 ## Running the project with local test network (ganache-cli)
     
    - Start ganache-cli with the following command:
@@ -34,10 +38,6 @@ Clone this GitHub repository. The [Coffeeshop.sol](./contracts/Coffeeshop.sol) f
   - On the landing page, click “Get Chrome Extension.”
   - Create a .secret file cointaining the menomic.
     
-  - Install the Truffle HD wallet provider with the following command:
-    ```sh
-    $ npm install @truffle/hdwallet-provider
-    ```
   - Deploy the smart contract using Truffle & Infura with the following command:
     ```sh
     $ truffle migrate --network rinkeby
