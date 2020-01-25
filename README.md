@@ -33,7 +33,19 @@ Clone this GitHub repository.
   - Get an Ethereum Account on Metamask. 
   - On the landing page, click “Get Chrome Extension.”
   - Create a .secret file cointaining the menomic.
-    
+  - Get some test ether from a [Rinkeby's faucet](https://faucet.rinkeby.io/).
+  - Signup [Infura](https://infura.io/).
+  - Create new project.
+  - Copy the rinkeby URL into truffle-config.js.
+  - Uncomment the following lines in truffle-config.js:
+    ```
+    // const HDWalletProvider = require("@truffle/hdwallet-provider");
+    // const infuraKey = '...';
+    // const infuraURL = 'https://...';
+
+    // const fs = require('fs');
+    // const mnemonic = fs.readFileSync(".secret").toString().trim();
+    ```
   - Install Truffle HD Wallet Provider:
     ```sh
     $ npm install -g @truffle/hdwallet-provider
