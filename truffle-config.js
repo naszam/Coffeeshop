@@ -18,12 +18,12 @@
  *
  */
 
- const HDWalletProvider = require("@truffle/hdwallet-provider");
- const infuraKey = '5d5b686a5b784e8d9e5d7da9ff3e83f4';
- const infuraURL = 'https://rinkeby.infura.io/v3/5d5b686a5b784e8d9e5d7da9ff3e83f4';
+ //const HDWalletProvider = require("@truffle/hdwallet-provider");
+ //const infuraKey = '...';
+ //const infuraURL = '...';
 
- const fs = require('fs');
- const mnemonic = fs.readFileSync(".secret").toString().trim();
+ //const fs = require('fs');
+ //const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
