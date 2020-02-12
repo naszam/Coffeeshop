@@ -1,6 +1,6 @@
 # Coffeeshop
 
-Coffeeshop Smart Contract
+>Coffeeshop Smart Contract
 
 Project Setup
 ============
