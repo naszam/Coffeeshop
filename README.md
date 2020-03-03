@@ -50,7 +50,7 @@ Clone this GitHub repository.
     ```
   - Install Truffle HD Wallet Provider:
     ```sh
-    $ npm install -g @truffle/hdwallet-provider
+    $ npm install @truffle/hdwallet-provider
     ```
   - Deploy the smart contract using Truffle & Infura with the following command:
     ```sh
