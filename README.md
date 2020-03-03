@@ -1,6 +1,8 @@
+[![#built_with_Truffle](https://img.shields.io/badge/built%20with-Truffle-blueviolet?style=plastic&logo=Ethereum)](https://www.trufflesuite.com/)
+
 # Coffeeshop
 
->Coffeeshop Smart Contract
+> Coffeeshop DApp
 
 Project Setup
 ============
